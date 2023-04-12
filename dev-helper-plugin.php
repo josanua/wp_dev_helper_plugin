@@ -29,7 +29,7 @@ define('PLUGIN_NAME','DEV_HELPER_PLUGIN');
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'DEV HELPER PLUGIN_VERSION', '1.0.0' );
+define( 'PLUGIN_VERSION', '1.0.0' );
 
 register_activation_hook(
     __FILE__,
@@ -47,5 +47,25 @@ register_uninstall_hook(
 );
 
 function pluginprefix_function_to_run() {
+
+}
+
+if( ! class_exists('PLUGIN_CLASS') ) {
+    class PLUGIN_CLASS {
+        /** @var string The plugin version number */
+        var $version = '5.7.7';
+
+        /** @var array The plugin settings array */
+        var $settings = array();
+
+        /** @var array The plugin data array */
+        var $data = array();
+
+        /** @var array Storage for class instances */
+        var $instances = array();
+
+
+
+    }
 
 }

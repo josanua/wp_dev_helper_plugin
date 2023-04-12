@@ -22,7 +22,7 @@ This text will be hidden by default, but can be revealed by clicking on the summ
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). See the LICENSE file for details.
+This project is licensed under the [GPL](https://www.gnu.org/licenses/gpl-3.0.html). See the LICENSE file for details.
 
 <!-- ## Acknowledgments -->
 
