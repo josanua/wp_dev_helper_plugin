@@ -15,7 +15,6 @@ To use the code, simply [download the repository](https://github.com/josanua/wp_
 
 This text will be hidden by default, but can be revealed by clicking on the summary.
 </details>
-
 -->
 
 

@@ -22,6 +22,15 @@ if (!defined('WPINC')) {
     die;
 }
 
+define('PLUGIN_NAME','DEV_HELPER_PLUGIN');
+
+/**
+ * Currently plugin version.
+ * Start at version 1.0.0 and use SemVer - https://semver.org
+ * Rename this for your plugin and update it as you release new versions.
+ */
+define( 'DEV HELPER PLUGIN_VERSION', '1.0.0' );
+
 register_activation_hook(
     __FILE__,
     'pluginprefix_function_to_run'
